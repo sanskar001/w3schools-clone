@@ -1,0 +1,451 @@
+/* ------------------------------------------
+STYLESHEET FOR TABLET (600PX TO 850PX)
+------------------------------------------ */
+
+/* -------------------- HEADER SECTION -------------------- */
+nav {
+    z-index: 10;
+}
+
+/* ---------- NAV LEFT SIDE --------- */
+
+/* Small screen dropdown menu */
+
+.small-screen-dropdown-menu {
+    display: block;
+}
+
+.small-screen-dropdown-menu .dropdown-menu-btn {
+    display: block;
+}
+
+.small-dropdown-menu-container {
+    clear: left;
+    position: absolute;
+    left: 0;
+    top: 76px;
+    width: 100%;
+    z-index: 9;
+    display: none;
+    background-color: #e7e9eb;
+    box-shadow: inset 0 10px 6px -6px #cccdcf;
+    padding: 2.5rem 2.5rem;
+}
+
+.small-dropdown-menu-container .dropdown-cross-btn {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.small-dropdown-menu-container .dropdown-cross-btn i {
+    font-size: 2.4rem;
+    float: right;
+}
+
+.small-dropdown-menu-container .dropdown {
+    clear: left;
+    display: block;
+    width: 100%;
+    background-color: #e7e9eb;
+}
+
+.small-dropdown-menu-container .dropdown .dropdown-btn{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000;
+    background-color: transparent;
+}
+
+.small-dropdown-menu-container .dropdown .dropdown-btn:hover {
+    background-color: #cccccc;
+    color: #000;
+}
+
+.small-dropdown-menu-container .dropdown-link {
+    display: block;
+    clear: left;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.small-dropdown-menu-container .dropdown-link a {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    font-size: 2.2rem;
+    color: #000;
+}
+
+.small-dropdown-menu-container .dropdown-link:hover {
+    background-color: #cccccc;
+}
+
+/* ---------------- MEGA DROP DOWN MENU ----------------- */
+
+.small-dropdown-menu-container .dropdown .dropdown-block{
+    width: 100%;
+    position: static;
+    display: none;
+}
+
+.small-dropdown-block .content-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+}
+
+/* Big screen dropdown menu */
+
+.big-screen-dropdown-menu {
+    display: none;
+}
+
+/* ---------- NAV RIGHT SIDE --------- */
+
+nav .right .links .hollow-link {
+    display: none;
+}
+
+
+/*====================== LOGIN PAGE ======================*/
+
+/* ----------- LOGIN PAGE HEADER ------------ */
+
+.login-page-header {
+    justify-content: flex-end;
+}
+
+.home-logo {
+    display: none;
+}
+
+.login-cross-btn {
+    font-size: 5rem;
+}
+
+/* ----------- LOGIN PAGE CONTAINER ------------ */
+
+.login-page .container .login-container {
+    display: block;
+    width: 100%;
+}
+
+.login-container .login-block {
+    border: none;
+}
+
+/* ---- LOGIN HELP BUTTON ---- */
+
+.login-help-btn {
+    position: absolute;
+    bottom: 5rem;
+    right: 1rem;
+}
+
+/* ---- BELOW LOGIN PAGE TEXT ---- */
+
+.below-login-page-text{
+    text-align: center;
+    width: 100%;
+}
+
+/*====================== POSTER SECTION ======================*/
+
+.poster-block {
+    flex-direction: column;
+} 
+
+.poster-block .left,
+.poster-block .right {
+    width: 100%;
+}
+
+/*====================== LEARNING SECTION ======================*/
+
+/* ------ PROGRAMMING LEARNING CONTAINER -------- */
+
+.learning-section .programming-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.programming-container .programming-item {
+    margin-bottom: 2rem;
+}
+
+/* ------ FRAMEWORK LEARNING CONTAINER -------- */
+
+.learning-section .framework-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.framework-container .framework-item {
+    margin-bottom: 2rem;
+}
+
+/* ------ TUTORIAL BUTTON CONTAINER -------- */
+
+.learning-block .tutorial-btn-container-1 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tutorial-btn-container-1 button {
+    margin-bottom: 2rem;
+}
+
+/* ------ TUTORIAL BUTTON CONTAINER 2-------- */
+
+.learning-block .tutorial-btn-container-2 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.tutorial-btn-container-2 button {
+    margin-bottom: 2rem;
+}
+
+/*====================== CODE GAME SECTION ======================*/
+
+.code-game-section {
+    padding: 7rem 1.2rem;
+}
+
+.code-game-section h2 {
+    font-size: 6rem;
+}
+
+/*====================== CODE GAME SECTION ======================*/
+
+.bg-poster-section {
+    padding: 7rem 4rem 5rem 4rem;
+}
+
+.bg-poster-button-block {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.bg-poster-button-block button {
+    margin-bottom: 3rem;
+}
+
+/*====================== WEB TEMPLATE SECTION ======================*/
+
+.web-template-section {
+    padding: 7rem 3rem;
+}
+
+.web-template-section button {
+    padding: 1.5rem 10rem;
+}
+
+.web-template-image img {
+    width: 90%;
+}
+
+/*====================== W3 CERTIFICATE SECTION ======================*/
+
+.certificate-section {
+    padding: 7rem 3rem;
+}
+
+.certificate-section h2 {
+    font-size: 5.2rem;
+    margin-bottom: 4.5rem;
+}
+
+.certificate-section h3 {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+/*====================== CODE LEARN SECTION ======================*/
+
+.code-section {
+    padding: 7rem 3rem;
+}
+
+.code-section button {
+    padding: 1.5rem 10rem;
+}
+
+/*====================== PAGE FOOTER ======================*/
+
+.footer-btn-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-btn-container .left{
+    margin-bottom: 2.5rem;
+}
+
+.main-page-footer .browse-btn {
+    padding: 1.5rem 10rem;
+}
+
+/* ======================== HTML LEARN PAGE STYLING ======================== */
+
+/* ======== SUB HEADER STYLING ======== */
+
+/* LEFT SIDE */
+
+.sub-header .left .learn-btns button {
+    display: none;
+}
+
+.sub-header .left .learn-btns button:nth-child(1),
+.sub-header .left .learn-btns button:nth-child(2),
+.sub-header .left .learn-btns button:nth-child(3),
+.sub-header .left .learn-btns button:nth-child(4){
+    display: inline-block;
+}
+
+.sub-header .left .icons button:first-child{
+    display: inline-block;
+}
+
+/* ----- VERTICAL SCROLL MENU ----- */
+.scroll-dropdown-container .vertical-scroll-menu {
+    display: none;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
+}
+
+/* ======== MAIN BODY STYLING ======== */
+main {
+    padding: 0;
+}
+
+/* ----- HTML MAIN CONTAINER ----- */
+
+main .main-block .main-container .html-main-container {
+    width: 100%;
+}
+
+/* ----- SIDE BAR ADVERTISEMENT CONTAINER ----- */
+
+main .main-container .side-ad-container {
+    display: none;
+}
+
+/* ----- HTML TUTORIAL MAIN FOOTER STYLING ----- */
+
+.footer-container .footer-grid-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-last-content .copyright-text {
+    width: 60%;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ======================= SPACES PAGE STYLING ============================== */
+/* -------------------------------------------------------------------------- */
+
+/* ------------ SPACES POSTER SECTION STYLING ------------- */
+
+.spaces-poster-container {
+    height: 100%;
+    padding: 3rem 0;
+}
+
+
+.spaces-poster-container .spaces-poster-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.spaces-poster-content .left {
+    margin-bottom: 3rem;
+}
+
+/* ---------- W3SCHOOLS WEBSITE FEATURES SECTION --------- */
+
+.w3schools-web-features {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.w3schools-web-features .item {
+    padding: 0 35%;
+}
+
+/* ----------- W3SCHOOLS PROCESS SECTION ----------- */
+
+.process-section .content-block {
+    width: 40rem;
+}
+
+.process-section .content-block .diagram-container {
+    display: none;
+}
+
+.process-section .content-block ol {
+    display: none;
+}
+
+.process-section .content-block .small-screen-diagram-container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.small-screen-diagram-container .item {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.small-screen-diagram-container .item img {
+    display: block;
+    margin: 0 auto 3rem auto;
+}
+
+.small-screen-diagram-container .item p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 0 12rem;
+}
+
+/* -------------- SPACES W3SCHOOLS SERVICE PLAN SECTION -------------- */
+
+.w3schools-plan-section .section-content {
+    max-width: none;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 0;
+}
+
+.w3schools-plan-section .section-content .plan {
+    width: 35rem;
+    margin: 1rem auto;
+    padding: 3rem 2rem;
+    border-right: none;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.w3schools-plan-section .section-content .plan1 {
+    background-color: #282a35;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.w3schools-plan-section .section-content .plan1 .get-btn{
+    width: 70%;
+    margin: 2rem auto;
+}

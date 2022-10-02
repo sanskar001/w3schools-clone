@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 850px) and (max-width: 1000px)"
+      href="src/css/laptop_style.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px) and (max-width: 850px)"
+      href="src/css/tablet_style.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="src/css/phone_style.css"
+    />
+    <link rel="icon" type="image/png" href="src/images/favicon.png" />
+    <title>Sign up-W3Schools</title>
+  </head>
+
+  <body>
+    <div class="login-signup-page">
+      <div class="login-page-header">
+        <a href="index.html" class="home-logo" title="Home">
+          <img src="src/images/logo.jpg" alt="W3Schools logo" />
+        </a>
+        <button class="login-cross-btn">
+          <i class="ion-ios-close-empty" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="container">
+        <div class="login-container" style="display: none">
+          <div class="login-block">
+            <h2 class="login-heading">Log in</h2>
+            <div class="email-entry entry">
+              <div class="label">
+                <h3>Email</h3>
+                <div class="right-text">
+                  <p class="signup-text">
+                    Need an account? <span class="signup-link">Sign up</span>
+                  </p>
+                </div>
+              </div>
+              <div class="label-input">
+                <input type="email" name="user_email" />
+              </div>
+            </div>
+            <div class="password-entry entry">
+              <div class="label">
+                <h3>Password</h3>
+                <div class="right-text">
+                  <p class="show-text">
+                    <i class="fa fa-eye" aria-hidden="true"></i> Show
+                  </p>
+                  <p class="hide-text">
+                    <i class="fa fa-eye-slash" aria-hidden="true"></i> Hide
+                  </p>
+                </div>
+              </div>
+              <div class="label-input">
+                <input
+                  type="password"
+                  class="password-input"
+                  name="user_password"
+                />
+              </div>
+            </div>
+            <div class="below-portion">
+              <div class="submit-btn">
+                <button class="login-submit-btn">Log in</button>
+              </div>
+              <div class="extra-text">
+                <p class="forgot-psd">Forgot password?</p>
+              </div>
+            </div>
+          </div>
+          <div class="below-login-page-text">
+            &copy; 1999 - 2021 <a href="#">W3schools</a>. All rights reserved.
+            <a href="#">Cookie policy</a>, <a href="#">Privacy</a> and
+            <a href="#">Terms</a>.
+          </div>
+        </div>
+        <div class="signup-container">
+          <div class="signup-block">
+            <h2 class="signup-heading">Sign up</h2>
+            <div class="email-entry entry">
+              <div class="label">
+                <h3>Email</h3>
+                <div class="right-text">
+                  <p class="login-text">
+                    Already have an account?
+                    <span class="login-link">Log in</span>
+                  </p>
+                </div>
+              </div>
+              <div class="label-input">
+                <input type="email" name="user_email" />
+              </div>
+            </div>
+            <div class="password-entry entry">
+              <div class="label">
+                <h3>Password</h3>
+                <div class="right-text">
+                  <p class="show-text">
+                    <i class="fa fa-eye" aria-hidden="true"></i> Show
+                  </p>
+                  <p class="hide-text">
+                    <i class="fa fa-eye-slash" aria-hidden="true"></i> Hide
+                  </p>
+                </div>
+              </div>
+              <div class="label-input">
+                <input
+                  type="password"
+                  class="password-input"
+                  name="user_password"
+                />
+              </div>
+            </div>
+            <div class="below-portion">
+              <div class="instructions">
+                <ul>
+                  <li>
+                    <i class="fa fa-circle" aria-hidden="true"></i> One
+                    lowercase character
+                  </li>
+                  <li>
+                    <i class="fa fa-circle" aria-hidden="true"></i> One
+                    uppercase character
+                  </li>
+                  <li>
+                    <i class="fa fa-circle" aria-hidden="true"></i> One number
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <i class="fa fa-circle" aria-hidden="true"></i> One special
+                    character
+                  </li>
+                  <li>
+                    <i class="fa fa-circle" aria-hidden="true"></i> 8 characters
+                    minimum
+                  </li>
+                </ul>
+              </div>
+              <div class="submit-btn">
+                <button class="signup-submit-btn">Sign Up for free</button>
+              </div>
+              <div class="extra-text">
+                <p class="extra-instruction">
+                  By clicking the "Sign up for free" button, you are creating an
+                  account, and agree to W3Schools'
+                  <span>Terms of Service</span> and <span>Privacy Policy</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="below-login-page-text">
+            &copy; 1999 - 2021 <a href="#">W3schools</a>. All rights reserved.
+            <a href="#">Cookie policy</a>, <a href="#">Privacy</a> and
+            <a href="#">Terms</a>.
+          </div>
+        </div>
+        <button class="login-help-btn">
+          <i class="fa fa-question-circle-o" aria-hidden="true"></i> Help
+        </button>
+      </div>
+    </div>
+
+    <script src="src/js/login_signup_script.js"></script>
+  </body>
+</html>
